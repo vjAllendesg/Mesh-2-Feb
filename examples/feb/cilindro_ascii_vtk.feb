@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8'?>
+<febio_spec version="4.0">
+  <!-- Geometría y material en SI. Configurar condiciones y pasos antes de resolver. -->
+  <Module type="solid">
+    <units>SI</units>
+  </Module>
+  <Material>
+    <material id="1" name="material_1" type="Mooney-Rivlin">
+      <c1>10</c1>
+      <c2>0</c2>
+      <k>1000</k>
+      <density>1</density>
+    </material>
+  </Material>
+  <Mesh>
+    <Nodes name="scaffold">
+      <node id="1">-0.5,6.123233995736766e-17,0</node>
+      <node id="2">-0.5,6.123233995736766e-17,1</node>
+      <node id="3">-0.46193976625564342,-0.19134171618254484,0</node>
+      <node id="4">-0.46193976625564342,-0.19134171618254484,1</node>
+      <node id="5">-0.46193976625564337,0.19134171618254495,0</node>
+      <node id="6">-0.46193976625564337,0.19134171618254495,1</node>
+      <node id="7">-0.35355339059327384,-0.35355339059327373,0</node>
+      <node id="8">-0.35355339059327384,-0.35355339059327373,1</node>
+      <node id="9">-0.35355339059327373,0.35355339059327379,0</node>
+      <node id="10">-0.35355339059327373,0.35355339059327379,1</node>
+      <node id="11">-0.19134171618254517,-0.46193976625564326,0</node>
+      <node id="12">-0.19134171618254517,-0.46193976625564326,1</node>
+      <node id="13">-0.19134171618254486,0.46193976625564337,0</node>
+      <node id="14">-0.19134171618254486,0.46193976625564337,1</node>
+      <node id="15">-9.1848509936051484e-17,-0.5,0</node>
+      <node id="16">-9.1848509936051484e-17,-0.5,1</node>
+      <node id="17">0,0,0</node>
+      <node id="18">0,0,1</node>
+      <node id="19">3.061616997868383e-17,0.5,0</node>
+      <node id="20">3.061616997868383e-17,0.5,1</node>
+      <node id="21">0.19134171618254492,0.46193976625564337,0</node>
+      <node id="22">0.19134171618254492,0.46193976625564337,1</node>
+      <node id="23">0.191341716182545,-0.46193976625564331,0</node>
+      <node id="24">0.191341716182545,-0.46193976625564331,1</node>
+      <node id="25">0.35355339059327368,-0.35355339059327384,0</node>
+      <node id="26">0.35355339059327368,-0.35355339059327384,1</node>
+      <node id="27">0.35355339059327379,0.35355339059327379,0</node>
+      <node id="28">0.35355339059327379,0.35355339059327379,1</node>
+      <node id="29">0.46193976625564326,-0.1913417161825452,0</node>
+      <node id="30">0.46193976625564326,-0.1913417161825452,1</node>
+      <node id="31">0.46193976625564337,0.19134171618254489,0</node>
+      <node id="32">0.46193976625564337,0.19134171618254489,1</node>
+      <node id="33">0.5,0,0</node>
+      <node id="34">0.5,0,1</node>
+    </Nodes>
+    <Elements type="tet4" name="solid_tet4_1">
+      <elem id="1">17,33,31,32</elem>
+      <elem id="2">33,17,34,32</elem>
+      <elem id="3">17,18,34,32</elem>
+      <elem id="4">17,31,27,28</elem>
+      <elem id="5">31,17,32,28</elem>
+      <elem id="6">17,18,32,28</elem>
+      <elem id="7">17,27,21,22</elem>
+      <elem id="8">27,17,28,22</elem>
+      <elem id="9">17,18,28,22</elem>
+      <elem id="10">17,21,19,20</elem>
+      <elem id="11">21,17,22,20</elem>
+      <elem id="12">17,18,22,20</elem>
+      <elem id="13">17,19,13,14</elem>
+      <elem id="14">19,17,20,14</elem>
+      <elem id="15">17,18,20,14</elem>
+      <elem id="16">17,13,9,10</elem>
+      <elem id="17">13,17,14,10</elem>
+      <elem id="18">17,18,14,10</elem>
+      <elem id="19">17,9,5,6</elem>
+      <elem id="20">9,17,10,6</elem>
+      <elem id="21">17,18,10,6</elem>
+      <elem id="22">17,5,1,2</elem>
+      <elem id="23">5,17,6,2</elem>
+      <elem id="24">17,18,6,2</elem>
+      <elem id="25">17,1,3,4</elem>
+      <elem id="26">1,17,2,4</elem>
+      <elem id="27">17,18,2,4</elem>
+      <elem id="28">17,3,7,8</elem>
+      <elem id="29">3,17,4,8</elem>
+      <elem id="30">17,18,4,8</elem>
+      <elem id="31">17,7,11,12</elem>
+      <elem id="32">7,17,8,12</elem>
+      <elem id="33">17,18,8,12</elem>
+      <elem id="34">17,11,15,16</elem>
+      <elem id="35">11,17,12,16</elem>
+      <elem id="36">17,18,12,16</elem>
+      <elem id="37">17,15,23,24</elem>
+      <elem id="38">15,17,16,24</elem>
+      <elem id="39">17,18,16,24</elem>
+      <elem id="40">17,23,25,26</elem>
+      <elem id="41">23,17,24,26</elem>
+      <elem id="42">17,18,24,26</elem>
+      <elem id="43">17,25,29,30</elem>
+      <elem id="44">25,17,26,30</elem>
+      <elem id="45">17,18,26,30</elem>
+      <elem id="46">17,29,33,34</elem>
+      <elem id="47">29,17,30,34</elem>
+      <elem id="48">17,18,30,34</elem>
+    </Elements>
+    <NodeSet name="inferior">1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33</NodeSet>
+    <NodeSet name="superior">2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34</NodeSet>
+    <Surface name="inferior">
+      <tri3 id="1">17,31,33</tri3>
+      <tri3 id="2">17,27,31</tri3>
+      <tri3 id="3">17,21,27</tri3>
+      <tri3 id="4">17,19,21</tri3>
+      <tri3 id="5">17,13,19</tri3>
+      <tri3 id="6">17,9,13</tri3>
+      <tri3 id="7">17,5,9</tri3>
+      <tri3 id="8">17,1,5</tri3>
+      <tri3 id="9">17,3,1</tri3>
+      <tri3 id="10">17,7,3</tri3>
+      <tri3 id="11">17,11,7</tri3>
+      <tri3 id="12">17,15,11</tri3>
+      <tri3 id="13">17,23,15</tri3>
+      <tri3 id="14">17,25,23</tri3>
+      <tri3 id="15">17,29,25</tri3>
+      <tri3 id="16">17,33,29</tri3>
+    </Surface>
+    <Surface name="superior">
+      <tri3 id="1">18,34,32</tri3>
+      <tri3 id="2">18,32,28</tri3>
+      <tri3 id="3">18,28,22</tri3>
+      <tri3 id="4">18,22,20</tri3>
+      <tri3 id="5">18,20,14</tri3>
+      <tri3 id="6">18,14,10</tri3>
+      <tri3 id="7">18,10,6</tri3>
+      <tri3 id="8">18,6,2</tri3>
+      <tri3 id="9">18,2,4</tri3>
+      <tri3 id="10">18,4,8</tri3>
+      <tri3 id="11">18,8,12</tri3>
+      <tri3 id="12">18,12,16</tri3>
+      <tri3 id="13">18,16,24</tri3>
+      <tri3 id="14">18,24,26</tri3>
+      <tri3 id="15">18,26,30</tri3>
+      <tri3 id="16">18,30,34</tri3>
+    </Surface>
+  </Mesh>
+  <MeshDomains>
+    <SolidDomain name="solid_tet4_1" mat="material_1" />
+  </MeshDomains>
+  <Output>
+    <plotfile type="febio">
+      <var type="displacement" />
+      <var type="stress" />
+      <var type="relative volume" />
+    </plotfile>
+  </Output>
+</febio_spec>

@@ -1,0 +1,628 @@
+[
+  {
+    "entrada": "volumen",
+    "nodos": 34,
+    "elementos": {
+      "tet4": 48
+    },
+    "bounding_box_m": [
+      [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        1.0
+      ]
+    ],
+    "advertencias": [],
+    "caras_exteriores": 64,
+    "eje_cilindro": "Z",
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "inferior": {
+        "caras": 16,
+        "nodos": 17
+      },
+      "superior": {
+        "caras": 16,
+        "nodos": 17
+      }
+    },
+    "archivo": "cilindro.vtu",
+    "salida": "cilindro_vtu.feb",
+    "material": "isotropic elastic",
+    "volumen_m3": 0.7653668647301797
+  },
+  {
+    "entrada": "superficie → TetGen",
+    "nodos": 90,
+    "elementos": {
+      "tet4": 214
+    },
+    "bounding_box_m": [
+      [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "Los atributos PointData/CellData no se convierten en propiedades físicas; se asigna un material a todo el sólido.",
+      "Entrada superficial tetraedralizada con TetGen; tamaño nominal 0.6 m (volumen máximo objetivo h³/(6√2))."
+    ],
+    "caras_exteriores": 166,
+    "eje_cilindro": "Z",
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "inferior": {
+        "caras": 20,
+        "nodos": 19
+      },
+      "superior": {
+        "caras": 18,
+        "nodos": 18
+      }
+    },
+    "archivo": "cilindro_ascii.stl",
+    "salida": "cilindro_ascii_stl.feb",
+    "material": "neo-Hookean",
+    "volumen_m3": 0.7653668647301797
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 34,
+    "elementos": {
+      "tet4": 48
+    },
+    "bounding_box_m": [
+      [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        1.0
+      ]
+    ],
+    "advertencias": [],
+    "caras_exteriores": 64,
+    "eje_cilindro": "Z",
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "inferior": {
+        "caras": 16,
+        "nodos": 17
+      },
+      "superior": {
+        "caras": 16,
+        "nodos": 17
+      }
+    },
+    "archivo": "cilindro_ascii.vtk",
+    "salida": "cilindro_ascii_vtk.feb",
+    "material": "Mooney-Rivlin",
+    "volumen_m3": 0.7653668647301797
+  },
+  {
+    "entrada": "superficie → TetGen",
+    "nodos": 91,
+    "elementos": {
+      "tet4": 221
+    },
+    "bounding_box_m": [
+      [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "Entrada superficial tetraedralizada con TetGen; tamaño nominal 0.6 m (volumen máximo objetivo h³/(6√2))."
+    ],
+    "caras_exteriores": 166,
+    "eje_cilindro": "Z",
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "inferior": {
+        "caras": 18,
+        "nodos": 18
+      },
+      "superior": {
+        "caras": 20,
+        "nodos": 19
+      }
+    },
+    "archivo": "cilindro_binario.stl",
+    "salida": "cilindro_binario_stl.feb",
+    "material": "isotropic elastic",
+    "volumen_m3": 0.7653668363416362
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 34,
+    "elementos": {
+      "tet4": 48
+    },
+    "bounding_box_m": [
+      [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      [
+        0.5,
+        0.5,
+        1.0
+      ]
+    ],
+    "advertencias": [],
+    "caras_exteriores": 64,
+    "eje_cilindro": "Z",
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "inferior": {
+        "caras": 16,
+        "nodos": 17
+      },
+      "superior": {
+        "caras": 16,
+        "nodos": 17
+      }
+    },
+    "archivo": "cilindro_binario.vtk",
+    "salida": "cilindro_binario_vtk.feb",
+    "material": "neo-Hookean",
+    "volumen_m3": 0.7653668647301797
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 8,
+    "elementos": {
+      "tet4": 6
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [],
+    "caras_exteriores": 12,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "X+": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Y-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Y+": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Z-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Z+": {
+        "caras": 2,
+        "nodos": 4
+      }
+    },
+    "archivo": "cubo.vtu",
+    "salida": "cubo_vtu.feb",
+    "material": "Mooney-Rivlin",
+    "volumen_m3": 0.9999999999999999
+  },
+  {
+    "entrada": "superficie → TetGen",
+    "nodos": 27,
+    "elementos": {
+      "tet4": 48
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "Los atributos PointData/CellData no se convierten en propiedades físicas; se asigna un material a todo el sólido.",
+      "Entrada superficial tetraedralizada con TetGen; tamaño nominal 0.6 m (volumen máximo objetivo h³/(6√2))."
+    ],
+    "caras_exteriores": 48,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "X+": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Y-": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Y+": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Z-": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Z+": {
+        "caras": 8,
+        "nodos": 9
+      }
+    },
+    "archivo": "cubo_ascii.stl",
+    "salida": "cubo_ascii_stl.feb",
+    "material": "isotropic elastic",
+    "volumen_m3": 1.0000000000000002
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 8,
+    "elementos": {
+      "tet4": 6
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [],
+    "caras_exteriores": 12,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "X+": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Y-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Y+": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Z-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Z+": {
+        "caras": 2,
+        "nodos": 4
+      }
+    },
+    "archivo": "cubo_ascii.vtk",
+    "salida": "cubo_ascii_vtk.feb",
+    "material": "neo-Hookean",
+    "volumen_m3": 0.9999999999999999
+  },
+  {
+    "entrada": "superficie → TetGen",
+    "nodos": 27,
+    "elementos": {
+      "tet4": 48
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "Entrada superficial tetraedralizada con TetGen; tamaño nominal 0.6 m (volumen máximo objetivo h³/(6√2))."
+    ],
+    "caras_exteriores": 48,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "X+": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Y-": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Y+": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Z-": {
+        "caras": 8,
+        "nodos": 9
+      },
+      "Z+": {
+        "caras": 8,
+        "nodos": 9
+      }
+    },
+    "archivo": "cubo_binario.stl",
+    "salida": "cubo_binario_stl.feb",
+    "material": "Mooney-Rivlin",
+    "volumen_m3": 1.0000000000000002
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 8,
+    "elementos": {
+      "tet4": 6
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [],
+    "caras_exteriores": 12,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "X+": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Y-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Y+": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Z-": {
+        "caras": 2,
+        "nodos": 4
+      },
+      "Z+": {
+        "caras": 2,
+        "nodos": 4
+      }
+    },
+    "archivo": "cubo_binario.vtk",
+    "salida": "cubo_binario_vtk.feb",
+    "material": "isotropic elastic",
+    "volumen_m3": 0.9999999999999999
+  },
+  {
+    "entrada": "superficie → TetGen",
+    "nodos": 167,
+    "elementos": {
+      "tet4": 518
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        3.0,
+        3.0,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "TetGen produjo elementos mayores que el volumen objetivo; revisa la calidad y reduce el tamaño si hace falta.",
+      "Entrada superficial tetraedralizada con TetGen; tamaño nominal 0.6 m (volumen máximo objetivo h³/(6√2))."
+    ],
+    "caras_exteriores": 288,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 4.358898943540674e-06,
+    "superficies": {
+      "X-": {
+        "caras": 24,
+        "nodos": 21
+      },
+      "X+": {
+        "caras": 26,
+        "nodos": 22
+      },
+      "Y-": {
+        "caras": 30,
+        "nodos": 24
+      },
+      "Y+": {
+        "caras": 26,
+        "nodos": 22
+      },
+      "Z-": {
+        "caras": 74,
+        "nodos": 53
+      },
+      "Z+": {
+        "caras": 74,
+        "nodos": 53
+      }
+    },
+    "archivo": "cubo_con_poro.stl",
+    "salida": "cubo_con_poro_stl.feb",
+    "material": "neo-Hookean",
+    "volumen_m3": 8.0
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 8,
+    "elementos": {
+      "hex8": 1
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "Jacobianos comprobados en nodos y puntos interiores; el muestreo no es una certificación global de elementos curvos."
+    ],
+    "caras_exteriores": 6,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 1,
+        "nodos": 4
+      },
+      "X+": {
+        "caras": 1,
+        "nodos": 4
+      },
+      "Y-": {
+        "caras": 1,
+        "nodos": 4
+      },
+      "Y+": {
+        "caras": 1,
+        "nodos": 4
+      },
+      "Z-": {
+        "caras": 1,
+        "nodos": 4
+      },
+      "Z+": {
+        "caras": 1,
+        "nodos": 4
+      }
+    },
+    "archivo": "cubo_hex8.vtu",
+    "salida": "cubo_hex8_vtu.feb",
+    "material": "Mooney-Rivlin",
+    "volumen_m3": 0.9999999999999999
+  },
+  {
+    "entrada": "volumen",
+    "nodos": 27,
+    "elementos": {
+      "tet10": 6
+    },
+    "bounding_box_m": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "advertencias": [
+      "Jacobianos comprobados en nodos y puntos interiores; el muestreo no es una certificación global de elementos curvos."
+    ],
+    "caras_exteriores": 12,
+    "eje_cilindro": null,
+    "tolerancia_plano_m": 1.7320508075688771e-06,
+    "superficies": {
+      "X-": {
+        "caras": 2,
+        "nodos": 9
+      },
+      "X+": {
+        "caras": 2,
+        "nodos": 9
+      },
+      "Y-": {
+        "caras": 2,
+        "nodos": 9
+      },
+      "Y+": {
+        "caras": 2,
+        "nodos": 9
+      },
+      "Z-": {
+        "caras": 2,
+        "nodos": 9
+      },
+      "Z+": {
+        "caras": 2,
+        "nodos": 9
+      }
+    },
+    "archivo": "cubo_tet10.vtu",
+    "salida": "cubo_tet10_vtu.feb",
+    "material": "isotropic elastic",
+    "volumen_m3": 1.0000000000000004
+  }
+]

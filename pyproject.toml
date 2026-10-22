@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scaffold-feb"
+version = "0.1.0"
+description = "Conversor de mallas de andamios a FEBio 4.0"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[tool.setuptools.packages.find]
+include = ["scaffold_feb*"]
+
+[tool.setuptools.package-data]
+scaffold_feb = ["materials.json", "templates/*.xml"]
+
+[project.scripts]
+scaffold-feb = "scaffold_feb.cli:main"
+
+[project.gui-scripts]
+scaffold-feb-gui = "scaffold_feb.gui:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

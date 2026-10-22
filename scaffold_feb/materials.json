@@ -1,0 +1,33 @@
+{
+  "materials": [
+    {
+      "type": "isotropic elastic",
+      "label": "Elástico isotrópico",
+      "parameters": [
+        {"name": "E", "label": "Módulo de Young", "default": 100, "unit": "Pa", "min_exclusive": 0},
+        {"name": "v", "label": "Coeficiente de Poisson", "default": 0.3, "unit": "—", "min_exclusive": -1, "max_exclusive": 0.5},
+        {"name": "density", "label": "Densidad", "default": 1, "unit": "kg/m³", "min": 0}
+      ]
+    },
+    {
+      "type": "neo-Hookean",
+      "label": "Neo-Hookeano",
+      "parameters": [
+        {"name": "E", "label": "Módulo de Young", "default": 100, "unit": "Pa", "min_exclusive": 0},
+        {"name": "v", "label": "Coeficiente de Poisson", "default": 0.3, "unit": "—", "min_exclusive": -1, "max_exclusive": 0.5},
+        {"name": "density", "label": "Densidad", "default": 1, "unit": "kg/m³", "min": 0}
+      ]
+    },
+    {
+      "type": "Mooney-Rivlin",
+      "label": "Mooney-Rivlin",
+      "parameters": [
+        {"name": "c1", "label": "Coeficiente c1", "default": 10, "unit": "Pa", "min_exclusive": 0},
+        {"name": "c2", "label": "Coeficiente c2", "default": 0, "unit": "Pa", "min": 0},
+        {"name": "k", "label": "Módulo volumétrico", "default": 1000, "unit": "Pa", "min_exclusive": 0},
+        {"name": "density", "label": "Densidad", "default": 1, "unit": "kg/m³", "min": 0}
+      ]
+    }
+  ],
+  "note": "Valores ilustrativos para probar el flujo. Sustituirlos por propiedades medidas antes de simular. Los valores del neo-Hookeano proceden del bloque elástico del ejemplo; no reproducen su viscoelasticidad."
+}

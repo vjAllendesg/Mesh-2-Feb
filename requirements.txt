@@ -1,0 +1,6 @@
+numpy>=1.24,<3
+meshio==5.3.5
+scipy>=1.10,<2
+tetgen>=0.6,<0.9
+trimesh>=4,<5
+rtree>=1.2,<2
