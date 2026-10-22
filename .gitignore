@@ -5,3 +5,10 @@ __pycache__/
 build/
 dist/
 validation_outputs/
+
+salidas/
+FEB_*/
+SIM_*/
+*.xplt
+*.dmp
+*.log
